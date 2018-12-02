@@ -10,4 +10,4 @@
 
 ## 可行性
 讯飞翻译器已经推出了方言翻译功能，不过目前只支持粤语，四川话等少部分方言。
-https://baijiahao.baidu.com/s?id=1598350854668639410&wfr=spider&for=pc
+https://baijiahao.baidu.com/s?id=1598350854668639410&wfr=spider&for=pc 参考文章
