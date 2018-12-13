@@ -21,7 +21,7 @@
 
 ### 二、 产品原型部分请参见 :[PRD-原型.md](/PRD-原型.md)
 ### 三、api部分请参见：[PRD-API.md](PRD-API.md)
-- 参考文章 [科大讯飞开放平台——语音听写接口的使用] (https://www.cnblogs.com/jiayongji/p/5300563.html)
+- [科大讯飞开放平台——语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
 ### 清单
 - [PRD.md](/PRD.md)
 - [PRD-原型.md](/PRD-原型.md)
