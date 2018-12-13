@@ -1,5 +1,6 @@
 ## api使用
 ### 百度翻译api，需要申请开发者权限
+```
 import requests
 import string
 import time
@@ -80,6 +81,7 @@ if not isinstance(result, dict):
         f.write(result)
 ```
 # 讯飞语音听写的使用
+- 参考文章:[科大讯飞开放接口————语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
 - 1、XML代码：
 界面中有一个按钮，一个TextView和一个EditText，EditText用于显示语音识别的结果
 ```
@@ -383,7 +385,7 @@ public class DictationResult {
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>  
     <!--读取联系人权限，上传联系人需要用到此权限 -->  
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
-    ```
-   - 5、测试：模拟器无法打开录音机，是不能在上面测试的，要用真机测试。测试结果如下图：
+```
+- 5、测试：模拟器无法打开录音机，是不能在上面测试的，要用真机测试。
    ![测试结果](/img/语音听写.png)
-- 参考文章[科大讯飞开放接口————语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
+
