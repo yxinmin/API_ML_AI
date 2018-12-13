@@ -1,4 +1,5 @@
 ## 百度翻译api
+```
 import requests
 import string
 import time
@@ -45,6 +46,7 @@ def requests_for_dst(word):
 while True:
     word = input("输入你想翻译的内容: ")
     requests_for_dst(word)
+
 ## 语音识别与语音合成
 # 读取文件
 def get_file_content(filePath):
@@ -63,3 +65,4 @@ result  = client.synthesis('方言翻译器挺不错的呢', 'zh', 1, {
 if not isinstance(result, dict):
     with open('auido.mp3', 'wb') as f:
         f.write(result)
+```
