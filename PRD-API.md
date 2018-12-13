@@ -82,7 +82,7 @@ if not isinstance(result, dict):
         f.write(result)
 ```
 ### 讯飞语音听写的使用
-- 参考文章:[科大讯飞开放接口————语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
+- 参考文章:[科大讯飞开放平台————语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
  
  1、XML代码：
 界面中有一个按钮，一个TextView和一个EditText，EditText用于显示语音识别的结果
