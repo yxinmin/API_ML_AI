@@ -59,6 +59,8 @@ API_KEY = '1LB5Dl5zAGPfWCYUIBxQDXPT'
 SECRET_KEY = 'leOKhkN7RxMComv4ZBFIVYxibc8bZQ2i'
 
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
+```
+```
 # 读取文件
 def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
