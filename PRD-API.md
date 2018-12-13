@@ -1,4 +1,5 @@
-## 百度翻译api
+## api使用
+### 百度翻译翻译api，百度语音识别，语音合成api
 ```
 import requests
 import string
@@ -46,8 +47,17 @@ def requests_for_dst(word):
 while True:
     word = input("输入你想翻译的内容: ")
     requests_for_dst(word)
-
+```
+```
 ## 语音识别与语音合成
+from aip import AipSpeech
+
+""" 你的 APPID AK SK """
+APP_ID = '15092311'
+API_KEY = '1LB5Dl5zAGPfWCYUIBxQDXPT'
+SECRET_KEY = 'leOKhkN7RxMComv4ZBFIVYxibc8bZQ2i'
+
+client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 # 读取文件
 def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
