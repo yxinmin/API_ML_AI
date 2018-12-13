@@ -48,8 +48,9 @@ while True:
     word = input("输入你想翻译的内容: ")
     requests_for_dst(word)
 ```
-```
+
 ## 语音识别与语音合成
+```
 from aip import AipSpeech
 
 """ 你的 APPID AK SK """
@@ -62,7 +63,8 @@ client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
         return fp.read()
-
+```
+```
 # 识别本地文件
 client.asr(get_file_content('auido.amr'), 'amr', 8000, {
     'dev_pid': 1536,
