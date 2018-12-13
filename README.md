@@ -16,10 +16,8 @@
 |3        |学习方言 |中外用户学习方言的一个起步器，语音字典|重要| 语言识别、语言合成|
 - 可行性
 讯飞翻译器已经推出了方言翻译功能，不过目前只支持粤语，四川话等少部分方言。
-   - 参考文章 https://baijiahao.baidu.com/s?id=1598350854668639410&wfr=spider&for=pc
-
-### 科大讯飞开放平台——语音听写接口的使用
-https://www.cnblogs.com/jiayongji/p/5300563.html
+   - [参考文章](https://baijiahao.baidu.com/s?id=1598350854668639410&wfr=spider&for=pc) 
+   -[科大讯飞开放平台——语音听写接口的使用] (https://www.cnblogs.com/jiayongji/p/5300563.html)
 
 ## 二、 产品原型部分请参见 :[PRD-原型.md](/PRD-原型.md)
 ## 三、api部分请参见：[PRD-API.md](PRD-API.md)
