@@ -80,3 +80,5 @@ if not isinstance(result, dict):
     with open('auido.mp3', 'wb') as f:
         f.write(result)
 ```
+
+[2016-2017翻译机市场规模走势](/img/.市场.png)（文：[中国翻译机行业市场市场监测及前景未来预测](https://www.chyxx.com/research/201811/691794.html) 
