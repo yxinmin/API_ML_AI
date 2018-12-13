@@ -49,7 +49,7 @@ while True:
     requests_for_dst(word)
 ```
 
-## 语音识别与语音合成
+### 语音识别与语音合成
 ```
 from aip import AipSpeech
 
@@ -65,12 +65,13 @@ client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 def get_file_content(filePath):
     with open(filePath, 'rb') as fp:
         return fp.read()
-```
-```
 # 识别本地文件
 client.asr(get_file_content('auido.amr'), 'amr', 8000, {
     'dev_pid': 1536,
 })
+
+```
+```
 result  = client.synthesis('方言翻译器挺不错的呢', 'zh', 1, {
     'vol': 5,
 })
@@ -80,9 +81,9 @@ if not isinstance(result, dict):
     with open('auido.mp3', 'wb') as f:
         f.write(result)
 ```
-# 讯飞语音听写的使用
+### 讯飞语音听写的使用
 - 参考文章:[科大讯飞开放接口————语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
-- 1、XML代码：
+ 1、XML代码：
 界面中有一个按钮，一个TextView和一个EditText，EditText用于显示语音识别的结果
 ```
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -115,7 +116,7 @@ if not isinstance(result, dict):
 
 </LinearLayout>
 ```
-- 2、MainActivity
+ 2、MainActivity
 ```
 import java.lang.reflect.Type;
 import java.util.List;
@@ -243,7 +244,7 @@ public class MainActivity extends Activity implements OnClickListener {
     }
 }
 ```
-- 3、自定义的com.example.speechrecognition.DictationResult类的代码：
+ 3、自定义的com.example.speechrecognition.DictationResult类的代码：
 ```
 import java.util.List;
 
@@ -369,7 +370,7 @@ public class DictationResult {
     }
 }
 ```
-- 4、AndroidManifest.xml中申请权限：
+ 4、AndroidManifest.xml中申请权限：
 ```
 <!-- 连接网络权限，用于执行云端语音能力 -->
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -386,6 +387,6 @@ public class DictationResult {
     <!--读取联系人权限，上传联系人需要用到此权限 -->  
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
 ```
-- 5、测试：模拟器无法打开录音机，是不能在上面测试的，要用真机测试。
+ 5、测试：模拟器无法打开录音机，是不能在上面测试的，要用真机测试。
    ![测试结果](/img/语音听写.png)
 
