@@ -1,9 +1,9 @@
-## 方言翻译器
+## 方言翻译APP
 ### 一、 产品需求文档 
 |       |         |
 | ------------- |:-------------:|
 | Target release  |11-25-2018|
-| Epic      |  方言翻译器     |
+| Epic      |  方言翻译APP     |
 | Document status | Not started      |
 |Document owner|杨欣敏|
 | Designer      | 杨欣敏 |
