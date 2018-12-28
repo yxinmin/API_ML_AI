@@ -85,7 +85,6 @@ if not isinstance(result, dict):
 参考文章:
 - [科大讯飞开放平台————语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
 - [python实现调用科大讯飞语音听写（将音频识别成文字输出）](https://blog.csdn.net/Smile_coderrr/article/details/81636015)
-```
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 #import urllib2
@@ -134,7 +133,6 @@ def main():
 if __name__ == '__main__':
     main()
 
- ```
  
 - [科大讯飞开放平台————语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
  1、XML代码：
