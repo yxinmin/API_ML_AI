@@ -42,8 +42,8 @@
 - [科大讯飞开放平台——语音听写接口的使用](https://www.cnblogs.com/jiayongji/p/5300563.html)
 - [python实现调用科大讯飞语音听写（将音频识别成文字输出）](https://blog.csdn.net/Smile_coderrr/article/details/81636015)
 ![语音识别合成](img/语音识别合成.png)
-![讯飞语音听写](代码1.png)
-![百度翻译api](百度翻译.png)
+![讯飞语音听写](img/代码1.png)
+![百度翻译api](img/百度翻译api.png)
 2、API使用比较分析
 - [百度/阿里/腾讯(BAT)三家公司自然语言处理API对比与使用/价格分析以及选取](https://ptorch.com/news/178.html)
 
