@@ -28,6 +28,8 @@
 - 可行性
 讯飞翻译器已经推出了方言翻译功能，不过目前只支持粤语，四川话等少部分方言。[参考文章](https://baijiahao.baidu.com/s?id=1598350854668639410&wfr=spider&for=pc) 
 
+- 讯飞开放平台拥有领先的语音识别技术，核心技术达到国际领先水平，语音识别准确率已经超过98%，在业界遥遥领先。[语言听写](https://www.xfyun.cn/services/voicedictation)
+
 ### 二、 产品原型部分请参见 :[PRD-原型.md](/PRD-原型.md)
 ![语种](img/语种.png)
 ![翻译界面](img/翻译界面.png)
