@@ -54,9 +54,9 @@ while True:
 from aip import AipSpeech
 
 """ 你的 APPID AK SK """
-APP_ID = '15092311'
-API_KEY = '1LB5Dl5zAGPfWCYUIBxQDXPT'
-SECRET_KEY = 'leOKhkN7RxMComv4ZBFIVYxibc8bZQ2i'
+APP_ID = 'xxx'
+API_KEY = 'xxxx'
+SECRET_KEY = 'xxxxx'
 
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 ```
