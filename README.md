@@ -46,6 +46,7 @@
 ![语音识别合成](img/语音识别合成.png)
 ![讯飞语音听写](img/代码1.png)
 ![百度翻译api](img/百度翻译api.png)
+
 2、API使用比较分析
 - [百度/阿里/腾讯(BAT)三家公司自然语言处理API对比与使用/价格分析以及选取](https://ptorch.com/news/178.html)
 
